@@ -5,6 +5,7 @@ set -u
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PIDS=()
 
+
 cleanup() {
     trap - INT TERM EXIT
 

@@ -10,7 +10,7 @@ if pdf_files:
     pdf_path = pdf_files[0]
     doc = fitz.open(pdf_path)
     print(f"Total pages: {len(doc)}")
-    
+
     for i, page in enumerate(doc):
         pix = page.get_pixmap(dpi=150)
         out_path = os.path.join(ARTIFACT_DIR, f"passport_pdf_page_{i+1}.png")

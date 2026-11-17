@@ -10,6 +10,7 @@
 
 ---
 
+
 ## Executive Overview
 
 MediKiosk is an enterprise-grade clinical intake, triage, and hospital management platform engineered for primary health centers (PHCs), tertiary care hospitals, and high-density outpatient departments (OPD).
